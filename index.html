@@ -5,8 +5,106 @@
     <title>HTML Academy: Барбершоп</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Профессиональный HTML и CSS, уровень 1</a>».</p>
-
+      <header class="main-header">
+          <nav class="main-nav">
+              <a href="#" class="main-header-logo">
+                  <img src="img/index-logo.svg" width="368" height="153" alt="Логотип барбершопа 'Бородинский'">
+              </a>
+              <ul class="site-nav">
+                  <li><a href="info.html">Информация</a></li>
+                  <li><a href="news.html">Новости</a></li>
+                  <li><a href="price.html">Прайс-лист</a></li>
+                  <li><a href="shop.html">Магазин</a></li>
+                  <li><a href="contacst.html">Контакты</a></li>
+              </ul>
+              <ul class="user-nav">
+                  <li><a href="login.html">Вход</a></li>
+              </ul>
+          </nav>
+      </header>
+      <main class="container">
+          <h1 class="visually-hidden">Барбершоп «Бородинский»</h1>
+          <section class="features">
+              <h2 class="visually-hidden">Преимущества</h2>
+              <ul class="features-list">
+                  <li class="feature-item">
+                    <h3>Быстро</h3>
+                    <p>Мы делаем свою работу быстро! Два часа пролетят незаметно и вы — счастливый обладатель стильной стрижки-минутки!</p>
+                  </li>
+                  <li class="feature-item">
+                    <h3>Круто</h3>
+                    <p>Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола или кино! Во всяком случае внешне.</p>
+                  </li>
+                  <li class="feature-item">
+                    <h3>Дорого</h3>
+                    <p>Наши мастера — профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не дает определенный статус?</p>
+                  </li>
+              </ul>
+          </section>
+          <section class="news">
+              <h2>Новости
+                  <ul class="news-list">
+                      <li class="news-item">
+                        <p>Нам наконец завезли Ягермайстер! Теперь вы можете пропустить стаканчик во время стрижки</p>
+                        <time datetime="2016-01-11">11 января</time>
+                      </li>
+                      <li class="news-item">
+                        <p>В нашей команде пополнение, Борис «Бритва» Стригунец, обладатель множества титулов и наград пополнил наши стройные ряды</p>
+                        <time datetime="2016-01-18">18 января</time>
+                      </li>
+                  </ul>
+                  <a href="news.html" class="btn"></a>
+              </h2>
+          </section>
+          <section class="photo-gallery">
+              <h2>Фотогалерея</h2>
+              <figure>
+                  <a href="#"><img src="img/photo-gal1.jpg" alt="Наш салон"></a>
+                  <a href="#"><img src="img/photo-gal3.jpg" alt="Владелец барбершопа"></a>
+                  <a href="#"><img src="img/photo-gal2.jpg" alt="Процесс стрижки"></a>
+              </figure>
+              <button class="btn btn-back">Назад</button>
+              <button class="btn btn-fwd">Вперед</button>
+          </section>
+          <section class="contacts">
+              <h2>Контактная информация</h2>
+                <p>
+                   Барбершоп «Бородинский»<br>
+                   Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+                   Телефон: +7 (812) 666-02-66
+                </p>
+                <p>
+                  Время работы:<br>
+                  пн—пт: с 10:00 до 22:00<br>
+                  сб—вс: с 10:00 до 19:00
+                </p>
+                <a class="btn" href="map.html">Как проехать</a>
+                <a class="btn" href="contacts.html">Обратная связь</a>
+          </section>
+          <section class="appointment">
+              <h2>Записаться</h2>
+              <p>УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ</p>
+          </section>
+      </main>
+      <footer class="main-footer">
+            <div class="footer-contacts">
+                Барбершоп «Бородинский»<br>
+                Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+                <a href="map.html">Как нас найти?</a><br>
+                Телефон: +7 (812) 666-02-66
+            </div>
+            <div class="footer-social">
+                <p>Давайте дружить</p>
+                <ul>
+                    <li><a href="#" class="social-btn social-btn-vk">Вконтакте</a></li>
+                    <li><a href="#" class="social-btn social-btn-fb">FaceBook</a></li>
+                    <li><a href="#" class="social-btn social-btn-ig">Instagram</a></li>
+                </ul>
+            </div>
+            <div class="footer-copyrights">
+                <b>Разработано</b>
+                <a href="#" class="btn btn-created">htmlacademy.ru</a>
+            </div>
+      </footer>
   </body>
 </html>
